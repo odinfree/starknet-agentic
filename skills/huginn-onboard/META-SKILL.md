@@ -1,7 +1,7 @@
 ---
 name: huginn-onboard-meta
 description: Complete Starknet onboarding for agents (bridge, deploy, register) with paymaster
-author: welttowelt
+author: odinfree
 version: 2.0.0
 chains: [starknet, ethereum, base, arbitrum]
 required_tokens: [ETH, USDC]

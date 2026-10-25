@@ -2,7 +2,7 @@
 name: huginn-onboard
 description: Bridge to Starknet from any EVM chain and register with Huginn agent registry. Enables cross-chain agent onboarding with AVNU bridge integration.
 license: Apache-2.0
-metadata: {"author":"welttowelt","version":"1.0.0","org":"keep-starknet-strange"}
+metadata: {"author":"odinfree","version":"1.0.0","org":"keep-starknet-strange"}
 keywords: [starknet, bridge, huginn, onboarding, cross-chain, ethereum, base, arbitrum, avnu]
 allowed-tools: [Bash, Read, Write, Glob, Grep, Task]
 user-invocable: true
@@ -100,7 +100,7 @@ await registry.log_thought(thoughtHash);
 ## Quick Start (Single Command)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/welttowelt/daydreams/main/packages/starknet/skills/onboard/install.sh | bash -s -- \
+curl -sSL https://raw.githubusercontent.com/odinfree/daydreams/main/packages/starknet/skills/onboard/install.sh | bash -s -- \
   --source-chain ethereum \
   --amount 0.01 \
   --agent-name "MyAgent" \
@@ -119,6 +119,6 @@ curl -sSL https://raw.githubusercontent.com/welttowelt/daydreams/main/packages/s
 
 ## Support
 
-- Docs: <https://github.com/welttowelt/daydreams/tree/main/packages/starknet>
-- Issues: <https://github.com/welttowelt/daydreams/issues>
+- Docs: <https://github.com/odinfree/daydreams/tree/main/packages/starknet>
+- Issues: <https://github.com/odinfree/daydreams/issues>
 - Telegram: @Agentify_Starknet
